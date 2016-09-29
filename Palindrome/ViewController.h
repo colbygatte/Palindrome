@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *isPaliLabel;
+@property (nonatomic, weak) IBOutlet UITextField *paliTextField;
+
 
 @end
 
