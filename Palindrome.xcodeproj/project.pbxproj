@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90FE14E1DA2A44C00288D6B /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE14D1DA2A44C00288D6B /* Palindrome.m */; };
 		E96FE3891D9D825400A32B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FE3881D9D825400A32B25 /* main.m */; };
 		E96FE38C1D9D825400A32B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FE38B1D9D825400A32B25 /* AppDelegate.m */; };
 		E96FE38F1D9D825400A32B25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FE38E1D9D825400A32B25 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E90FE14C1DA2A44C00288D6B /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
+		E90FE14D1DA2A44C00288D6B /* Palindrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palindrome.m; sourceTree = "<group>"; };
 		E96FE3841D9D825400A32B25 /* Palindrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palindrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96FE3881D9D825400A32B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E96FE38A1D9D825400A32B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				E96FE38B1D9D825400A32B25 /* AppDelegate.m */,
 				E96FE38D1D9D825400A32B25 /* ViewController.h */,
 				E96FE38E1D9D825400A32B25 /* ViewController.m */,
+				E90FE14C1DA2A44C00288D6B /* Palindrome.h */,
+				E90FE14D1DA2A44C00288D6B /* Palindrome.m */,
 				E96FE3901D9D825400A32B25 /* Main.storyboard */,
 				E96FE3931D9D825400A32B25 /* Assets.xcassets */,
 				E96FE3951D9D825400A32B25 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				E96FE38F1D9D825400A32B25 /* ViewController.m in Sources */,
 				E96FE38C1D9D825400A32B25 /* AppDelegate.m in Sources */,
+				E90FE14E1DA2A44C00288D6B /* Palindrome.m in Sources */,
 				E96FE3891D9D825400A32B25 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				E96FE3B31D9D825400A32B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96FE3B41D9D825400A32B25 /* Build configuration list for PBXNativeTarget "PalindromeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				E96FE3B61D9D825400A32B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96FE3B71D9D825400A32B25 /* Build configuration list for PBXNativeTarget "PalindromeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				E96FE3B91D9D825400A32B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
