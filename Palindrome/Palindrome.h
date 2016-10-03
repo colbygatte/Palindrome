@@ -10,7 +10,7 @@
 
 @interface Palindrome : NSObject
 
--(NSString *) reverseString:(NSString *) stringToReverse;
++(NSString *) reverseString:(NSString *) stringToReverse;
 -(Boolean) verifyIsPali:(NSString *) paliString;
 
 

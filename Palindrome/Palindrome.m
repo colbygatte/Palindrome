@@ -11,7 +11,7 @@
 @implementation Palindrome
 
 
--(NSString *) reverseString:(NSString *) stringToReverse {
++(NSString *) reverseString:(NSString *) stringToReverse {
     NSUInteger len = stringToReverse.length;
     
     NSString *reversedString = @"";
@@ -31,7 +31,7 @@
 }
 
 -(Boolean) verifyIsPali:(NSString *) paliString {
-    NSString *reversedString = [self reverseString:paliString];
+    NSString *reversedString = [Palindrome reverseString:paliString];
     
     
     if([reversedString isEqualToString:paliString]) {
