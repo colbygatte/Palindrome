@@ -34,7 +34,7 @@
     NSString *reversedString = [Palindrome reverseString:paliString];
     
     
-    if([reversedString isEqualToString:paliString]) {
+    if([reversedString.lowercaseString isEqualToString:paliString.lowercaseString]) {
         return true;
     } else {
         return false;
